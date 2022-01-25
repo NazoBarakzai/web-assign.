@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Login</title>
+    </head>
+    <body>
+
+        First Name: <input type="text" id="fname" value="" placeholder="first name">
+        Last Name: <input type="text" id="lname" value="" placeholder="last name">
+
+
+        <p>Click the button to display the value of the value attribute of the text field.</p>
+
+        <button onclick="myFunction()">Try it</button>
+
+        <p id="demo"> p</p>
+
+        <script>
+            function myFunction() {
+            var x = document.getElementById("fname").value;
+            var y = document.getElementById("myText").value;
+
+            document.getElementById("demo").innerHTML = x ;
+            }
+        </script>
+
+    </body> 
+</html>
