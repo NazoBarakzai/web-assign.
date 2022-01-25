@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<link rel="icon" type="image/x-icon" href="pic_bulbon.gif">
+</head>
+<body>
+	<h1 style="color:red;">Hello</h1>
+	<h1 style="color:blue;" id="demo">Hello</h1>
+	<!-- There are two method that we can use to submit a forrm 1st Get 2nd POST -->
+	<form method="post" autocomplete="on">
+		<label>Name: </label>
+		<input type="text" name="name" placeholder="Enter your Name" required>
+
+		<br>
+		<label>Email: </label>
+		<input type="email" name="email" placeholder="Enter your Email" style="color:red;">
+		<br>
+
+		<label>Male</label>
+		<input type="radio" name="gander">
+
+		<label>Female</label>
+		<input type="radio" name="gander">
+		<br>
+
+		<label>Male</label>
+		<input type="checkbox" name="gander">
+
+		<label>Female</label>
+		<input type="checkbox" name="gander">
+		<br>
+
+		<label>password</label>
+		<input type="password" name="password" placeholder="enter password" required>
+		<br>
+
+		<label>Image: </label>
+		<input type="file" name="image">
+
+		<br>
+
+		<label></label>
+		<input type="submit" name="submit">
+	</form>
+<script type="text/javascript">
+	document.getElementById("demo").innerHTML = "Hello Nazo";
+</script>
+</body>
+</html>
